@@ -1,5 +1,7 @@
 import {fetchCountries} from './fetchCountries'
 export {fetchAndDrawCountries}
+import Notiflix from 'notiflix';
+
 const countryListEl = document.querySelector('.country-list');
 
 function getCauntryRow(country, showDetails) {

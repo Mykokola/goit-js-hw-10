@@ -1,5 +1,4 @@
 export { fetchCountries };
-import Notiflix from 'notiflix';
 function fetchCountries(name) {
   name = name?.trim();
   if (!name) {
