@@ -40,12 +40,11 @@ function getCauntryRow(country, showDetails) {
           );
         } else if (data.length) {
           drawCountries(data);
-        }else{
-            Notiflix.Notify.failure('Oops, there is no country with that name');
         }
       })
       .catch(error => {
         console.log('Cauntry is not a found')
+        Notiflix.Notify.failure('Oops, there is no country with that name');
       });
   }
   
