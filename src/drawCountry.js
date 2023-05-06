@@ -43,7 +43,6 @@ function getCauntryRow(country, showDetails) {
         }
       })
       .catch(error => {
-        console.log('Cauntry is not a found')
         Notiflix.Notify.failure('Oops, there is no country with that name');
       });
   }
