@@ -1,6 +1,7 @@
 import {fetchCountries} from './fetchCountries'
-export {fetchAndDrawCountries}
 import Notiflix from 'notiflix';
+export {fetchAndDrawCountries}
+
 
 const countryListEl = document.querySelector('.country-list');
 
